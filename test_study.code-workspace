@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "test_study",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "../Github/test_study/images"
+		}
+	],
+	"settings": {}
+}
