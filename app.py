@@ -9,10 +9,17 @@ import numpy as np
 import pandas as pd
 import time
 import requests
+import sys
 
 # API keys
 openai.api_key = "openai"
 DEEPSEEK_API_KEY = "deepseek"  # Replace with your DeepSeek API key
+
+# サイドバーに終了ボタンを追加
+if st.sidebar.button("アプリケーションを終了"):
+    st.sidebar.success("アプリケーションを終了します...")
+    time.sleep(1)  # 終了メッセージを表示するための短い待機時間
+    sys.exit(0)
 
 ###医学知識###
 # 症状リスト
